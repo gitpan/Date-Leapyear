@@ -3,6 +3,6 @@ use ExtUtils::MakeMaker;
 # the contents of the Makefile that is written.
 WriteMakefile(
     'NAME'		=> 'Date::Leapyear',
-    'VERSION_FROM'	=> 'Date/Leapyear.pm', # finds $VERSION
+    'VERSION_FROM'	=> 'lib/Date/Leapyear.pm', # finds $VERSION
     'PREREQ_PM'		=> {}, # e.g., Module::Name => 1.1
 );

@@ -1,4 +1,4 @@
-Date/Leapyear.pm
+lib/Date/Leapyear.pm
 
 MANIFEST
 Makefile.PL

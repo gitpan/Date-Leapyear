@@ -6,7 +6,7 @@ use vars qw(@ISA @EXPORT $VERSION);
 @ISA = qw(Exporter);
 
 @EXPORT = qw( isleap );
-$VERSION = ( qw'$Revision: 1.5 $' )[1];
+$VERSION = ( qw'$Revision: 1.6 $' )[1];
 
 =head1 NAME
 
@@ -47,6 +47,9 @@ sub isleap {
 =head1 HISTORY
 
     $Log: Leapyear.pm,v $
+    Revision 1.6  2001/08/07 00:26:29  rbowen
+    Updating version number for new release
+
     Revision 1.5  2001/08/04 02:02:04  rbowen
     Added LICENSE
     Removed 'warnings' from Leapyear.pm so that it will run on earlier
