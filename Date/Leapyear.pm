@@ -1,13 +1,12 @@
 package Date::Leapyear;
 use strict;
-use warnings;
 
 use Exporter;
 use vars qw(@ISA @EXPORT $VERSION);
 @ISA = qw(Exporter);
 
 @EXPORT = qw( isleap );
-$VERSION = ( qw'$Revision: 1.4 $' )[1];
+$VERSION = ( qw'$Revision: 1.5 $' )[1];
 
 =head1 NAME
 
@@ -48,6 +47,11 @@ sub isleap {
 =head1 HISTORY
 
     $Log: Leapyear.pm,v $
+    Revision 1.5  2001/08/04 02:02:04  rbowen
+    Added LICENSE
+    Removed 'warnings' from Leapyear.pm so that it will run on earlier
+    Perl 5's.
+
     Revision 1.4  2001/08/02 00:51:42  rbowen
     There's no reason to require 5.6
 

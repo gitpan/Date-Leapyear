@@ -1,7 +1,9 @@
-Leapyear.pm
+Date/Leapyear.pm
+
 MANIFEST
 Makefile.PL
 Readme
+LICENSE
 
 t/00load.t
 t/01isleap.t
