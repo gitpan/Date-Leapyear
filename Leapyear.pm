@@ -1,14 +1,13 @@
 package Date::Leapyear;
-
-require 5.005_62;
 use strict;
 use warnings;
 
-require Exporter;
-our @ISA = qw(Exporter);
+use Exporter;
+use vars qw(@ISA @EXPORT $VERSION);
+@ISA = qw(Exporter);
 
-our @EXPORT = qw( isleap );
-our $VERSION = ( qw'$Revision: 1.3 $' )[1];
+@EXPORT = qw( isleap );
+$VERSION = ( qw'$Revision: 1.4 $' )[1];
 
 =head1 NAME
 
@@ -49,6 +48,9 @@ sub isleap {
 =head1 HISTORY
 
     $Log: Leapyear.pm,v $
+    Revision 1.4  2001/08/02 00:51:42  rbowen
+    There's no reason to require 5.6
+
     Revision 1.3  2001/07/24 15:59:29  rbowen
     Changed the leapyear algorithm to be a little more readable. Moved
     tests to Test::More.
