@@ -1,16 +1,29 @@
-Date-DayOfWeek
+NAME
+    Date::Leapyear - Is a particular year a leap year?
 
-There are two modules in this distribution. Date::Doomsday calculates doomsday
-for a particular year. Date::DayOfWeek uses the doomsday algorithm to
-calculate the day of the week for any given date.
+SYNOPSIS
+      use Date::Leapyear;
+      if ( isleap(1945) ) {
+        ...
+      }
 
-Doomsday is a cute little idea invented by Dr John Conway that makes it very
-easy to figure out the day of the week for any date.
+DESCRIPTION
+    Date::Leapyear exports one function - isleap - which returns 1 or 0 if a
+    year is leap, or not, respectively.
 
-You can find out more about doomsday and related calculations at
-http://www.interlog.com/~r937/doomsday.html
+isleap
+        $true = isleap( 2004 );
 
-This module is distributed under the same terms as Perl itself.
+    Returns 1 in a leap year, 0 otherwise.
 
-Copyright 2001, Rich Bowen (rbowen@rcbowen.com)
+HISTORY
+        $Log: Readme,v $
+        Revision 1.2  2001/06/04 03:47:30  rbowen
+        Updated to match POD
+
+        Revision 1.1.1.1  2001/06/02 11:51:13  rbowen
+        date-leapyear
+
+AUTHOR
+    Rich Bowen (rbowen@rcbowen.com)
 

@@ -8,7 +8,7 @@ require Exporter;
 our @ISA = qw(Exporter);
 
 our @EXPORT = qw( isleap );
-our $VERSION = ( qw'$Revision: 1.01 $' )[1];
+our $VERSION = ( qw'$Revision: 1.02 $' )[1];
 
 =head1 NAME
 
@@ -48,6 +48,9 @@ sub isleap {
 =head1 HISTORY
 
     $Log: Leapyear.pm,v $
+    Revision 1.2  2001/06/04 03:48:34  rbowen
+    The readme file was apparently copied over from another project. Oops.
+
     Revision 1.1.1.1  2001/06/02 11:51:13  rbowen
     date-leapyear
 
