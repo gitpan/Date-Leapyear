@@ -7,4 +7,5 @@ LICENSE
 
 t/00load.t
 t/01isleap.t
+t/02testmore.t
 

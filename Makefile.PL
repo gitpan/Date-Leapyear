@@ -4,5 +4,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'		=> 'Date::Leapyear',
     'VERSION_FROM'	=> 'lib/Date/Leapyear.pm', # finds $VERSION
-    'PREREQ_PM'		=> {}, # e.g., Module::Name => 1.1
+    'PREREQ_PM'		=> {
+            'Test::More' => 0,
+        }, # e.g., Module::Name => 1.1
 );

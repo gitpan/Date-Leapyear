@@ -1,3 +1,4 @@
+# $Header: /home/cvs/date-leapyear/lib/Date/Leapyear.pm,v 1.7 2001/12/31 04:03:16 rbowen Exp $
 package Date::Leapyear;
 use strict;
 
@@ -6,7 +7,7 @@ use vars qw(@ISA @EXPORT $VERSION);
 @ISA = qw(Exporter);
 
 @EXPORT = qw( isleap );
-$VERSION = ( qw'$Revision: 1.6 $' )[1];
+$VERSION = ( qw'$Revision: 1.7 $' )[1];
 
 =head1 NAME
 
@@ -41,36 +42,6 @@ sub isleap {
 }
 
 1;
-
-#{{{ CVS History
-
-=head1 HISTORY
-
-    $Log: Leapyear.pm,v $
-    Revision 1.6  2001/08/07 00:26:29  rbowen
-    Updating version number for new release
-
-    Revision 1.5  2001/08/04 02:02:04  rbowen
-    Added LICENSE
-    Removed 'warnings' from Leapyear.pm so that it will run on earlier
-    Perl 5's.
-
-    Revision 1.4  2001/08/02 00:51:42  rbowen
-    There's no reason to require 5.6
-
-    Revision 1.3  2001/07/24 15:59:29  rbowen
-    Changed the leapyear algorithm to be a little more readable. Moved
-    tests to Test::More.
-
-    Revision 1.2  2001/06/04 03:48:34  rbowen
-    The readme file was apparently copied over from another project. Oops.
-
-    Revision 1.1.1.1  2001/06/02 11:51:13  rbowen
-    date-leapyear
-
-=cut
-
-#}}}
 
 =head1 AUTHOR
 
