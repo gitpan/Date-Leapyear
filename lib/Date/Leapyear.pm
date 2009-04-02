@@ -1,4 +1,4 @@
-# $Header: /home/cvs/date-leapyear/lib/Date/Leapyear.pm,v 1.71 2002/08/30 00:00:25 rbowen Exp $
+# $Header: /cvsroot/date-leapyear/lib/Date/Leapyear.pm,v 1.71 2002/08/30 00:00:25 rbowen Exp $
 package Date::Leapyear;
 use strict;
 
@@ -7,7 +7,7 @@ use vars qw(@ISA @EXPORT $VERSION);
 @ISA = qw(Exporter);
 
 @EXPORT = qw( isleap );
-$VERSION = ( qw'$Revision: 1.71 $' )[1];
+$VERSION = ( qw'$Revision: 1.72 $' )[1];
 
 =head1 NAME
 
